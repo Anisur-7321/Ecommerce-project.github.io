@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="this is an E-commerce project for making E-commerce platform">
+    <title>E-commerce website</title>
+</head>
+<body>
+    <!--navbar section start-->
+    <i class="fa-solid fa-bars fa-2x" id="menu-icon"></i>
+    <nav id="menu" class="hidden">
+        <ul class="nav-upper flex-space-around">
+            <li class="nav-list"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-list"><a href="register.html" class="nav-link">Register</a></li>
+            <li class="nav-list"><a href="login.html" class="nav-link">Login</a></li>
+            <li class="nav-list"><a href="index.html" class="nav-link">Logout</a></li>
+            <li class="nav-list"><a href="contact.html" class="nav-link">Contact us</a></li>
+            <li class="nav-list"><a href="profile.html" class="nav-link">
+                <img class="profile-icon" src="Anis.png" alt="profile-icon">
+            </a></li>
+        </ul>
+
+        <ul class="nav-lower flex-space-around">
+            <li class="nav-list"><a href="index.html" class="nav-brandnav-link">E-Commerce Platform</a></li>
+            <li class="nav-list"><a href="cart.html" class="nav-link">
+                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                Cart 2 products - $125.40
+            </a></li>
+        </ul>
+    </nav>
+    <!--navbar section end-->
+    <main><section class="login">
+        <div class="section-title text-center">User Login</div>
+        <div class="card">
+            <form action="" class="form">
+                <div class="form-control flex-center">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="User Email" required autocomplete="email">
+                </div>
+                <div class="form-control flex-center">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" placeholder="password" required autocomplete="new-password">
+                </div>
+                <div class="form-control flex-center form-btn-field">
+                    <button type="submit" class="btn contact-btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section></main>
+    <!--footer section start-->
+    <footer class="footer flex-space-around">
+        <div class="flex-space-around">
+            <label for="subscribe">Subscribe to our website:</label>
+            <input type="email" id="subscribe" name="subscribe" class="footer-input" placeholder="Your Email Address">
+            <button class="btn btn-subscribe">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright 2024 @Anisur. All rights Reserved</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
